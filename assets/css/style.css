@@ -1,0 +1,58 @@
+body {
+/*	background-color: #fff17c;*/
+	color: #8230ff;
+	text-align: center;
+}
+
+a {
+	color: #8230ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7cccff;
+	text-decoration: none;
+}
+
+.content-box {
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #fff17c;
+}
+
+#row-one, #row-two, #row-three {
+	background-color: white;
+	margin-top: 10px;
+}
+
+/* For footer positioning and to get rid of weird L-R scroll bar */
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0px auto -30px;
+	/* Pad bottom by footer height */
+	padding: 0px 0px 30px 0px;
+}
+
+/* Sticky footer styling! */
+#footer {
+	/* Must match margin-bottom in .wrapper CSS */
+	/* Set the fixed height of the footer here */
+	color: #999;
+    font-size: 0.8em;
+    line-height: 1.0em;
+	height: 30px;
+	padding: 5px;
+	border-top-style: solid;
+	border-width: 1px;
+	text-align: center;
+	overflow: auto;
+}
