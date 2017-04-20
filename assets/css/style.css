@@ -4,7 +4,7 @@ body {
 	text-align: center;
 }
 
-a {
+a, a:active, a:visited {
 	color: #8230ff;
 	text-decoration: none;
 }
