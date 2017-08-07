@@ -34,6 +34,10 @@ a:hover {
 	padding-top: 10px; 
 }
 
+.card-img-top {
+  width: 80%;
+}
+
 /* For footer positioning and to get rid of weird L-R scroll bar */
 html, body {
 	height: 100%;
