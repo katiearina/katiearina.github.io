@@ -3,7 +3,7 @@ body {
 	color: #8230ff;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 h1 {
@@ -54,7 +54,7 @@ html, body {
 #footer {
 	/* Must match margin-bottom in .wrapper CSS */
   /* Set the fixed height of the footer here */
-  background-color: #ffc1cc;
+  background-color: #ffb7c5;
 	color: #ff55a3;
 	height: 30px;
 	padding: 5px;
