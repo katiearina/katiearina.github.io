@@ -1,7 +1,17 @@
 body {
-/*	background-color: #fff17c;*/
+	background-color: #fff17c;
 	color: #8230ff;
-	text-align: center;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Codystar', cursive;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 a, a:active, a:visited {
@@ -16,14 +26,12 @@ a:hover {
 
 .content-box {
 	margin-top: 20px;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #fff17c;
+	border: 4px solid #ff9966;
 }
 
 #row-one, #row-two, #row-three {
 	background-color: white;
-	margin-top: 10px;
+	padding-top: 10px; 
 }
 
 /* For footer positioning and to get rid of weird L-R scroll bar */
@@ -45,14 +53,12 @@ html, body {
 /* Sticky footer styling! */
 #footer {
 	/* Must match margin-bottom in .wrapper CSS */
-	/* Set the fixed height of the footer here */
-	color: #999;
-    font-size: 0.8em;
-    line-height: 1.0em;
+  /* Set the fixed height of the footer here */
+  background-color: #ffc1cc;
+	color: #ff55a3;
 	height: 30px;
 	padding: 5px;
-	border-top-style: solid;
-	border-width: 1px;
+	border-top: 1px solid #ff55a3;
 	text-align: center;
 	overflow: auto;
 }
