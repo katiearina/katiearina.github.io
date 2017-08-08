@@ -29,7 +29,8 @@ a:hover{
 }
 
 #links a, #links a:active, #links a:visited {
-	text-decoration: none;
+  text-decoration: none;
+	color: #8230ff;
 }
 
  #links a:hover {
