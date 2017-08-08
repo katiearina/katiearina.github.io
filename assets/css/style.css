@@ -14,14 +14,6 @@ h2, h3, h4, h5, h6 {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-#links a, #links a:active, #links a:visited {
-  color: #ff033e;
-}
-
- #links a:hover {
-  color: #ff7c8b;
-} 
-
 a, a:active, a:visited {
 	color: #8230ff;
 	text-decoration: none;
@@ -31,6 +23,14 @@ a:hover{
 	color: #7cccff;
 	text-decoration: none;
 }
+
+#links a, #links a:active, #links a:visited {
+  color: #ff033e;
+}
+
+ #links a:hover {
+  color: #ff7c8b;
+} 
 
 .content-box {
 	margin-top: 20px;
