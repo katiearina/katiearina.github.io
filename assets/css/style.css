@@ -1,5 +1,5 @@
 body {
-	background-color: #fff17c;
+	background-color: #ffd2d1;
 	color: #8230ff;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
@@ -8,6 +8,10 @@ body {
 
 h1 {
   font-family: 'Codystar', cursive;
+	color: #8230ff;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -25,11 +29,12 @@ a:hover{
 }
 
 #links a, #links a:active, #links a:visited {
-  color: #ff033e;
+	text-decoration: none;
 }
 
  #links a:hover {
-  color: #ff7c8b;
+  color: #ff033e;
+	text-decoration: none;
 } 
 
 .content-box {
@@ -67,11 +72,11 @@ html, body {
 #footer {
 	/* Must match margin-bottom in .wrapper CSS */
   /* Set the fixed height of the footer here */
-  background-color: #ffb7c5;
-	color: #ff55a3;
+  /* background-color: #fff17c; */
+	color: #ff033e;
 	height: 30px;
 	padding: 5px;
-	border-top: 1px solid #ff55a3;
+	/* border-top: 2px solid #ff9966; */
 	text-align: center;
-	overflow: auto;
+	overflow: hidden;
 }
