@@ -53,11 +53,12 @@ a:hover{
 
 .card-img-top {
   width: 95%;
+  transition: width 250ms;
 }
 
 .card-img-top:hover {
   width: 100%;
-  transition: 250ms;
+  transition: width 250ms;
   transition-timing-function: ease-in-out;
 }
 
